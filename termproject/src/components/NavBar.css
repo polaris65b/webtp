@@ -1,0 +1,62 @@
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidebar.collapsed {
+    width: 50px;
+  }
+  
+  .toggle-btn {
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn svg {
+    fill: #333;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  nav ul li {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+    background-color: #e9e9e9;
+  }
+  
