@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -16,12 +17,21 @@ const Home = () => {
         <div className="text-box">
           <h2>오시는 길</h2>
           <p>충청남도 천안시 동남구 병천면 충절로 1600 한국기술교육대학교</p>
+          <p>테니스장 맞으편 건물 지하 1층 끝쪽 방</p>
           <img
             src="/howcom.png"
             alt="오시는 길 이미지"
             className="location-image"
           />
         </div>
+      </div>
+      <div className="home-buttons">
+        <Link to="/login">
+          <button>로그인</button>
+        </Link>
+        <Link to="/signup">
+          <button>회원가입</button>
+        </Link>
       </div>
     </div>
   );

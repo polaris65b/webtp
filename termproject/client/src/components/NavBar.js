@@ -14,10 +14,7 @@ const NavBar = () => {
       <button className="toggle-btn" onClick={toggleSidebar}>
         {isCollapsed ? (
           <svg width="20" height="20" viewBox="0 0 20 20">
-            <path
-              d="M0 10 L10 0 L10 7 L20 7 L20 13 L10 13 L10 20 Z"
-              transform="rotate(180 10 10)"
-            />
+            <path d="M20 10 L10 0 L10 7 L0 7 L0 13 L10 13 L10 20 Z" />
           </svg>
         ) : (
           <svg width="20" height="20" viewBox="0 0 20 20">
@@ -35,10 +32,13 @@ const NavBar = () => {
               <Link to="/schedule">Schedule</Link>
             </li>
             <li>
-              <Link to="/reservation">Reservation</Link>
+              <Link to="/recommendations">Recommendations</Link>
             </li>
             <li>
-              <Link to="/recommendations">Recommendations</Link>
+              <Link to="/notice">Notice Board</Link>
+            </li>
+            <li>
+              <Link to="/instagram">Instagram Board</Link>
             </li>
           </ul>
         </nav>

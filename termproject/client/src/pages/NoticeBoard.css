@@ -1,0 +1,36 @@
+.notice-board {
+  margin: 20px;
+}
+
+.notice-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.notice-form input,
+.notice-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.notice-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.notices .notice {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+  border-radius: 8px;
+}
+
+.notices .notice h3 {
+  margin-top: 0;
+}

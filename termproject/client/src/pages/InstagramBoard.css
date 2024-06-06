@@ -1,0 +1,37 @@
+.instagram-board {
+  margin: 20px;
+}
+
+.instagram-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.instagram-form input,
+.instagram-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.instagram-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.posts .post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.posts .post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
